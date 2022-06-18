@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	color: white;
+}
+#particles-js {
+	height: 100%;
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZIOk2dyvBgn5iizi-vJ_J6tJw2Mcc2Ozw6g&usqp=CAU');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.particles-js-canvas-el {
+	position: absolute;
+}
+.text {
+	justify-content: left;
+	margin: 30px;
+	font-size: 30px;
+	color: #0a0a0a;
+	width: 50%;
+	margin-left: -20px;
+}
+nav {
+	width: 100%;
+	background: rgba(95, 102, 209, 0.5);
+	position: fixed;
+	top: 0;
+	height: 70px;
+}
+nav > h1 {
+	font-family: sans-serif;
+	color: rgb(5, 4, 15);
+	margin-left: 15px;
+	padding-bottom: 10px;
+	font-size: 25px;
+}
+form > h1 {
+	color: #020911;
+}
+form {
+	text-align: center;
+}
+footer {
+	width: 100%;
+	background: rgba(80, 106, 221, 0.5);
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer > h3 {
+	color: #0a0a0a;
+	margin: 0px;
+}
